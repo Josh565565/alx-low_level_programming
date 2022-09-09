@@ -19,7 +19,7 @@ int main(void)
 
 	if (lastn > 5)
 	{
-		printf("Last digit od %d is %d and is greater than 5\n", n, lastn)
+		printf("Last digit od %d is %d and is greater than 5\n", n, lastn);
 	} else if (lastn == 0)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, lastn);
