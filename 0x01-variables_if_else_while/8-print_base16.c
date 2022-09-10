@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - entry point
  *
@@ -10,7 +9,7 @@ int main(void)
 {
 	unsigned char j = '0';
 	int i;
-	
+
 	for (i = 0; i < 10; i++)
 	{
 		putchar(j);
