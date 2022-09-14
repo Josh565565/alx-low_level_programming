@@ -1,6 +1,6 @@
 #include "main.h"
 
-/**:wq
+/**
  *
  * print_times_table - times table function
  * @n: integer to return
