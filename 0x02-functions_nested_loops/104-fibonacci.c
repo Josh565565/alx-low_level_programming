@@ -20,7 +20,7 @@ int main(void)
 			printf("%.0f", c);
 			a = b;
 			b = c;
-			c = a +b;
+			c = a + b;
 			if (counter < 98)
 			{
 				printf(", ");
