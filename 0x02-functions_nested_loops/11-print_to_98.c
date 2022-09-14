@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "6-abs.c"
 /**
- * print - prints to 98
+ * print_to_98 - prints to 98
  * @n: parameter
  *
  * Return: always returns nothing
