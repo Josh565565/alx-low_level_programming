@@ -1,7 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 #include "6-abs.c"
-
+/**
+ * print - prints to 98
+ * @n: parameter
+ *
+ * Return: always returns nothing
+ */
 
 void print_to_98(int n)
 {
