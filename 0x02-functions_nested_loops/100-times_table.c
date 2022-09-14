@@ -1,4 +1,4 @@
-nclude "holberton.h"
+nclude "main.h"
 
 /**
  *  * print_times_table - times table function
