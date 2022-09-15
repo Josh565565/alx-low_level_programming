@@ -12,7 +12,7 @@ int largest_number(int a, int b, int c)
 {
 	int largest = a;
 
-	if (largrst < b)
+	if (largest < b)
 	{
 		largest = b;
 		 if (largest < c)
