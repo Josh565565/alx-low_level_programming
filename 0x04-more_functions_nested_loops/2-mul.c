@@ -1,9 +1,9 @@
 #include "main.h"
+
 /**
- * mul - multiplier
- *
- * @a: int to multiplie
- * @b: int to multiplie
+ * mul - returns result of multiplication between 2 integers
+ * @a: first multiplier
+ * @b: second multiplier
  *
  * Return: result
  */
