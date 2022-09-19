@@ -1,19 +1,22 @@
 /**
- * _strcpy - the main function to copy
+ * *_strcpy - this copies string to a given memory location
  *
- * @dest: destination to copy
+ * @dest: string destination
  *
- * @src: src
+ * @src: string location
  *
- * Return: returns a character value
+ * Return: returns char
  */
 char *_strcpy(char *dest, char *src)
 {
-	int i;
+	int len = 0;
 
-	for (i = 0; i <= _strlen(src); i++)
+	while (*(src + len) != '\0')
 	{
-		dest[i] = src[i];
+		*(dest + len) = *(src + len);
+		len++;
 	}
+	*(dest + len) = *(src + len);
+
 	return (dest);
 }
