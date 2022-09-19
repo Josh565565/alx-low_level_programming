@@ -25,7 +25,7 @@ int _atoi(char *s)
 		}
 		if (new >= '0' && new <= '9')
 		{
-			ind2 = n;
+			indx = n;
 			while (*(s + indx) > 47 && *(s + indx) < 58)
 			{
 				res = (res * 10) + *(s + indx) - '0';
